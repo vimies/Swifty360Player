@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
         :git => 'https://github.com/abdullahselek/Swifty360Player.git',
         :tag => s.version.to_s
     }
-    s.ios.deployment_target = '10.0'
+    s.ios.deployment_target = '9.0'
     s.source_files          = 'Swifty360Player/*.swift'
     s.requires_arc          = true
 
